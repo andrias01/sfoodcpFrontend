@@ -79,13 +79,13 @@ const Menuitems: MenuitemsType[] = [
         id: uniqueId(),
         title: 'Homepage',
         icon: 'stop-circle-line-duotone',
-        href: 'https://materialpro-react-main.netlify.app/frontend-pages/homepage',
+        href: 'https://linktr.ee/lacurvadelgordo?fbclid=PAZXh0bgNhZW0CMTEAAacZlvHVI2gehw50NCZaZTXnKVwXvo7Fgx_-K4I7OmtU0Xzp7mtyNpfMm_I-Tw_aem_j4gHHV49TgBSbEk-XZafxw',
       },
       {
         id: uniqueId(),
-        title: 'About Us',
+        title: 'Carta Actual',
         icon: 'stop-circle-line-duotone',
-        href: 'https://materialpro-react-main.netlify.app/frontend-pages/about',
+        href: 'https://drive.google.com/file/d/1JrnFjl9W5yyd6Dyfo5gW5oAzfLab1SVt/view',
       },
       // {
         // id: uniqueId(),

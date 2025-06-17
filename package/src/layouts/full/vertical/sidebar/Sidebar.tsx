@@ -44,7 +44,7 @@ const Sidebar = () => {
                   width: toggleWidth,
                   boxSizing: "border-box",
                   border: "0",
-                  top: '64px',
+                  top: '64px',//ajusto la altura del slidebar
                   boxShadow: "1px 0 20px #00000014",
                 }, 
               }

@@ -4,7 +4,7 @@ import { Outlet } from 'react-router';
 // import Header from './vertical/header/Header';
 import Sidebar from './vertical/sidebar/Sidebar';
 import Header from './vertical/header/Header';
-import Topbar from './vertical/header/Topbar';
+// import Topbar from './vertical/header/Topbar';
 import Footer from './shared/footer/Footer';
 
 const MainWrapper = styled('div')(() => ({}));

@@ -2,9 +2,9 @@
 import { Grid, Box } from '@mui/material';
 import SalesOverview from 'src/components/dashboard/TheSalesOverview';
 import OurVisitors from 'src/components/dashboard/TheOurVisitors';
-import ProfileCard from 'src/components/dashboard/TheProfileCard';
-import ActivityTimeline from 'src/components/dashboard/TheActivityTimeline';
-import MyContacts from 'src/components/dashboard/TheMyContacts';
+// import ProfileCard from 'src/components/dashboard/TheProfileCard';
+// import ActivityTimeline from 'src/components/dashboard/TheActivityTimeline';
+// import MyContacts from 'src/components/dashboard/TheMyContacts';
 
 export default function Dashboard() {
   return (
@@ -27,7 +27,7 @@ export default function Dashboard() {
           <OurVisitors />
         </Grid>
 
-        <Grid
+        {/* <Grid
           size={{
             xs: 12,
             lg: 4,
@@ -41,15 +41,15 @@ export default function Dashboard() {
               <MyContacts />
             </Grid>
           </Grid>
-        </Grid>
-        <Grid
+        </Grid> */}
+        {/* <Grid
           size={{
             xs: 12,
             lg: 8,
           }}
         >
           <ActivityTimeline />
-        </Grid>
+        </Grid> */}
       </Grid>
     </Box>
   );

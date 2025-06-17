@@ -1,12 +1,12 @@
 import { Grid, Box } from '@mui/material';
 
-import { ColorButtons } from '../../components/forms/Button/ColorButtons';
-import { SizeButton } from '../../components/forms/Button/SizeButton';
-import { OutlinedColorButtons } from '../../components/forms/Button/OutlinedColorButtons';
-import { TextColorButtons } from '../../components/forms/Button/TextColorButtons';
-import { IconColorButtons } from '../../components/forms/Button/IconColorButtons';
-import { FabDefaultButton } from '../../components/forms/Button/FabDefaultButton';
-import { DefaultButtonGroup } from '../../components/forms/Button/DefaultButtonGroup';
+// import { ColorButtons } from '../../components/forms/Button/ColorButtons';
+// import { SizeButton } from '../../components/forms/Button/SizeButton';
+// import { OutlinedColorButtons } from '../../components/forms/Button/OutlinedColorButtons';
+// import { TextColorButtons } from '../../components/forms/Button/TextColorButtons';
+// import { IconColorButtons } from '../../components/forms/Button/IconColorButtons';
+// import { FabDefaultButton } from '../../components/forms/Button/FabDefaultButton';
+// import { DefaultButtonGroup } from '../../components/forms/Button/DefaultButtonGroup';
 
 const ExButton = () => {
   // 2
@@ -15,7 +15,7 @@ const ExButton = () => {
     <Box>
       <Grid container spacing={3}>
         {/* ------------------------- row 2 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6 }}
           sx={{
             display: 'flex',
@@ -23,10 +23,10 @@ const ExButton = () => {
           }}
         >
           <ColorButtons />
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 4 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6 }}
           sx={{
             display: 'flex',
@@ -34,10 +34,10 @@ const ExButton = () => {
           }}
         >
           <SizeButton />
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 2 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6 }}
           sx={{
             display: 'flex',
@@ -45,10 +45,10 @@ const ExButton = () => {
           }}
         >
           <OutlinedColorButtons />
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 2 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6 }}
           sx={{
             display: 'flex',
@@ -56,9 +56,9 @@ const ExButton = () => {
           }}
         >
           <TextColorButtons />
-        </Grid>
+        </Grid> */}
         {/* ------------------------- row 4 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6 }}
           sx={{
             display: 'flex',
@@ -66,9 +66,9 @@ const ExButton = () => {
           }}
         >
           <IconColorButtons />
-        </Grid>
+        </Grid> */}
         {/* ------------------------- row 4 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6 }}
           sx={{
             display: 'flex',
@@ -76,10 +76,10 @@ const ExButton = () => {
           }}
         >
           <FabDefaultButton />
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 4 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6 }}
           sx={{
             display: 'flex',
@@ -87,7 +87,7 @@ const ExButton = () => {
           }}
         >
           <DefaultButtonGroup />
-        </Grid>
+        </Grid> */}
       </Grid>
     </Box>
   );

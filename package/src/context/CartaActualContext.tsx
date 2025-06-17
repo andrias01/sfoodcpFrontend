@@ -22,7 +22,7 @@ interface CartaActualContextType {
   error: string | null;
   loading: boolean;
 }
-
+  
 // Datos locales para testing
 const mockProductos: Producto[] = [
   {

@@ -1,4 +1,6 @@
-import { Box, Avatar, Typography, Tooltip, IconButton, Button } from '@mui/material';
+// import { Box, Avatar, Typography, Tooltip, IconButton, Button } from '@mui/material';
+import { Box, Avatar, Typography, Tooltip, IconButton} from '@mui/material';
+
 import Menu, { MenuProps } from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { styled } from '@mui/material/styles';
@@ -111,7 +113,7 @@ export const Profile = () => {
                 overflow: 'hidden',
               }}
             >
-              Markarn Doe
+              La Curva Del Gordo
             </Typography>
             <Box>
               <Tooltip title="User" placement="top">
@@ -138,6 +140,7 @@ export const Profile = () => {
               <Icon icon="solar:user-circle-line-duotone" height={22} />
             </Box>
             <Typography fontSize="15px" ml={1}>
+              
               My Profile
             </Typography>
           </MenuItem>
@@ -171,7 +174,9 @@ export const Profile = () => {
             <Box color="error.main" display="flex" alignItems="center">
               <Icon icon="solar:logout-2-line-duotone" height={21} />
             </Box>
-            <Link to="/auth/auth1/login">
+            {/* <Link to="/auth/auth1/login"> */}
+            <Link to="/">
+
               <Typography fontSize="15px" ml={1} color="textPrimary">
                 Logout
               </Typography>

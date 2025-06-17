@@ -1,6 +1,8 @@
-import { Grid, Box, Switch, FormGroup, FormControlLabel } from '@mui/material';
+// import { Grid, Box, Switch, FormGroup, FormControlLabel } from '@mui/material';
+import { Grid, Box} from '@mui/material';
 
-import BaseCard from '../../components/BaseCard/BaseCard';
+
+// import BaseCard from '../../components/BaseCard/BaseCard';
 
 const ExSwitch = () => {
   // 2
@@ -9,7 +11,7 @@ const ExSwitch = () => {
     <Box>
       <Grid container spacing={3}>
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -24,10 +26,10 @@ const ExSwitch = () => {
               <Switch disabled />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -42,10 +44,10 @@ const ExSwitch = () => {
               </FormGroup>
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -58,10 +60,10 @@ const ExSwitch = () => {
               <Switch defaultChecked />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -78,10 +80,10 @@ const ExSwitch = () => {
               <Switch defaultChecked color="default" />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -118,7 +120,7 @@ const ExSwitch = () => {
               </FormGroup>
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Box>
   );

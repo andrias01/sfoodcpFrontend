@@ -102,7 +102,7 @@ const Profile = () => {
             className="hoverTextPrimary"
           >
             <Button variant="outlined" component={Link} color="primary" sx={{ width: "100%" }} to="/auth/login">
-              Logout
+              LogOut
             </Button>
           </Box>
 

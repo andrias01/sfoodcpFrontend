@@ -64,7 +64,7 @@ const FbDefaultForm = () => {
             id="default-value"
             label="Default Text"
             variant="outlined"
-            defaultValue="George deo"
+            defaultValue="La Curva Del Gordo"
             fullWidth
             sx={{
               mb: 2,

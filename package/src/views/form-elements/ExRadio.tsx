@@ -1,33 +1,35 @@
-import React from 'react';
-import { Grid, Box, Radio, FormControlLabel, RadioGroup } from '@mui/material';
+// import React from 'react';
+// import { Grid, Box, Radio, FormControlLabel, RadioGroup } from '@mui/material';
+import { Grid, Box} from '@mui/material';
 
-import BaseCard from '../../components/BaseCard/BaseCard';
+
+// import BaseCard from '../../components/BaseCard/BaseCard';
 
 const ExRadio = () => {
   // 2
-  const [checked, setChecked] = React.useState(true);
+  // const [checked, setChecked] = React.useState(true);
 
-  const handleChange = (event: any) => {
-    setChecked(event.target.checked);
-  };
+  // const handleChange = (event: any) => {
+  //   setChecked(event.target.checked);
+  // };
 
-  const [selectedValue, setSelectedValue] = React.useState('a');
-  const handleChange2 = (event: any) => {
-    setSelectedValue(event.target.value);
-  };
+  // const [selectedValue, setSelectedValue] = React.useState('a');
+  // const handleChange2 = (event: any) => {
+  //   setSelectedValue(event.target.value);
+  // };
 
-  const controlProps = (item: any) => ({
-    checked: selectedValue === item,
-    onChange: handleChange2,
-    value: item,
-    name: 'size-radio-button-demo',
-    inputProps: { 'aria-label': item },
-  });
+  // const controlProps = (item: any) => ({
+  //   checked: selectedValue === item,
+  //   onChange: handleChange2,
+  //   value: item,
+  //   name: 'size-radio-button-demo',
+  //   inputProps: { 'aria-label': item },
+  // });
   return (
     <Box>
       <Grid container spacing={3}>
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 4, sm: 6 }}
           sx={{
             display: 'flex',
@@ -46,9 +48,9 @@ const ExRadio = () => {
               <Radio color="default" inputProps={{ 'aria-label': 'checkbox with default color' }} />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 4, sm: 6 }}
           sx={{
             display: 'flex',
@@ -124,9 +126,9 @@ const ExRadio = () => {
               />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 4, sm: 6 }}
           sx={{
             display: 'flex',
@@ -151,10 +153,10 @@ const ExRadio = () => {
               />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -179,10 +181,10 @@ const ExRadio = () => {
               <FormControlLabel value="end" control={<Radio />} label="End" />
             </RadioGroup>
           </BaseCard>
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -256,7 +258,7 @@ const ExRadio = () => {
               />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Box>
   );

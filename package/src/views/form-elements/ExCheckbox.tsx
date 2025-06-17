@@ -1,25 +1,27 @@
-import React from 'react';
-import { Grid, Box, Checkbox, FormGroup, FormControlLabel, FormControl } from '@mui/material';
+// import React from 'react';
+// import { Grid, Box, Checkbox, FormGroup, FormControlLabel, FormControl } from '@mui/material';
+import { Grid, Box} from '@mui/material';
 
-import BaseCard from '../../components/BaseCard/BaseCard';
 
-import CheckBoxOutlineBlankOutlinedIcon from '@mui/icons-material/CheckBoxOutlineBlankOutlined';
-import CheckBoxOutlinedIcon from '@mui/icons-material/CheckBoxOutlined';
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
+// import BaseCard from '../../components/BaseCard/BaseCard';
+
+// import CheckBoxOutlineBlankOutlinedIcon from '@mui/icons-material/CheckBoxOutlineBlankOutlined';
+// import CheckBoxOutlinedIcon from '@mui/icons-material/CheckBoxOutlined';
+// import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+// import FavoriteOutlinedIcon from '@mui/icons-material/FavoriteOutlined';
 
 const ExCheckbox = () => {
   // 2
-  const [checked, setChecked] = React.useState(true);
+  // const [checked, setChecked] = React.useState(true);
 
-  const handleChange = (event: any) => {
-    setChecked(event.target.checked);
-  };
+  // const handleChange = (event: any) => {
+  //   setChecked(event.target.checked);
+  // };
   return (
     <Box>
       <Grid container spacing={3}>
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 4, sm: 6 }}
           sx={{
             display: 'flex',
@@ -55,9 +57,9 @@ const ExCheckbox = () => {
               />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 4, sm: 6 }}
           sx={{
             display: 'flex',
@@ -109,9 +111,9 @@ const ExCheckbox = () => {
               />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 4, sm: 6 }}
           sx={{
             display: 'flex',
@@ -160,10 +162,10 @@ const ExCheckbox = () => {
               </FormGroup>
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -212,10 +214,10 @@ const ExCheckbox = () => {
               </FormGroup>
             </FormControl>
           </BaseCard>
-        </Grid>
+        </Grid> */}
 
         {/* ------------------------- row 1 ------------------------- */}
-        <Grid
+        {/* <Grid
           size={{ xs: 12, lg: 6, sm: 6 }}
           sx={{
             display: 'flex',
@@ -292,7 +294,7 @@ const ExCheckbox = () => {
               />
             </Box>
           </BaseCard>
-        </Grid>
+        </Grid> */}
       </Grid>
     </Box>
   );

@@ -18,6 +18,7 @@ import { useEffect, useState, useContext } from 'react';
 import { Icon } from '@iconify/react';
 import { DashboardContext } from 'src/context/DashboardContext';
 import { IconBell } from '@tabler/icons-react';
+import { Link } from 'react-router';
 
 const Header = () => {
   const [_height, setHeight] = useState('0px');
@@ -63,12 +64,12 @@ const Header = () => {
   const [menuPosition, setMenuPosition] = useState<{ top: number; left: number } | null>(null);
 
   const handleClick = (event: any) => {
-  const rect = event.currentTarget.getBoundingClientRect(); // Get exact position
-  setMenuPosition({
-  top: rect.bottom + window.scrollY, // Position menu below the icon
-  left: rect.left + window.scrollX, // Align with icon
-  });
-  setAnchorEl(event.currentTarget);
+    const rect = event.currentTarget.getBoundingClientRect(); // Get exact position
+    setMenuPosition({
+      top: rect.bottom + window.scrollY, // Position menu below the icon
+      left: rect.left + window.scrollX, // Align with icon
+    });
+    setAnchorEl(event.currentTarget);
   };
 
   const handleClose = () => {
@@ -106,7 +107,7 @@ const Header = () => {
           {/* Toggle Button Sidebar */}
           {/* ------------------------------------------- */}
 
-     
+
           <IconButton
             aria-label="show 4 new mails"
             color="inherit"
@@ -165,12 +166,15 @@ const Header = () => {
                     </Link>
                   </MenuItem>
                 </Button> */}
-                <Button
+                {/* <Button
                   variant="contained"
                   color="success"
                   target="_blank"
                   href="https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376#demos"
                 >
+                  LogOut
+                </Button> */}
+                <Button variant="contained" component={Link} color="success" sx={{ width: "100%" }} to="/auth/login">
                   LogOut
                 </Button>
                 <Profile />
@@ -180,12 +184,15 @@ const Header = () => {
           {lgUp ? null : (
             <>
               <Stack spacing={2} direction="row" alignItems="center">
-                <Button
+                {/* <Button
                   variant="contained"
                   color="success"
                   target="_blank"
                   href="https://www.wrappixel.com/templates/materialpro-react-admin/?ref=376#demos"
                 >
+                  LogOut
+                </Button> */}
+                <Button variant="contained" component={Link} color="success" sx={{ width: "100%" }} to="/auth/login">
                   LogOut
                 </Button>
                 <Profile />
