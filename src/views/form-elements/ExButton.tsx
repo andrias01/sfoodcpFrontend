@@ -7,12 +7,15 @@ import { Grid, Box } from '@mui/material';
 // import { IconColorButtons } from '../../components/forms/Button/IconColorButtons';
 // import { FabDefaultButton } from '../../components/forms/Button/FabDefaultButton';
 // import { DefaultButtonGroup } from '../../components/forms/Button/DefaultButtonGroup';
+import MateriaPrimaComponent from '../../../src/components/forms/AutoComplete/MateriaPrima';
+
 
 const ExButton = () => {
   // 2
 
   return (
     <Box>
+      <MateriaPrimaComponent />
       <Grid container spacing={3}>
         {/* ------------------------- row 2 ------------------------- */}
         {/* <Grid

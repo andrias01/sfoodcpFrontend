@@ -7,13 +7,16 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import { DashboardContextProvider } from './context/DashboardContext';
 import { CartaActualProviderWrapper } from './context/CartaActualContext';
+import { MateriaPrimaProviderWrapper } from './context/MateriaPrimaContext';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <CartaActualProviderWrapper>
-    <DashboardContextProvider>
-      <Suspense>
-        <App />
-      </Suspense>
-    </DashboardContextProvider>
-  </CartaActualProviderWrapper>
+  <MateriaPrimaProviderWrapper>
+    <CartaActualProviderWrapper>
+      <DashboardContextProvider>
+        <Suspense>
+          <App />
+        </Suspense>
+      </DashboardContextProvider>
+    </CartaActualProviderWrapper>
+  </MateriaPrimaProviderWrapper>
 );
